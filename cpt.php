@@ -5,7 +5,7 @@
    Description: a plugin to register your CPT, custom taxomomies and custom fields.
    Version: 1
    Author: Vasilis Baimas
-   Author URI: http://vbaimas.com
+   Author URI: https://github.com/vbaimas/CPT-Olympus
    License: GPL2
    */
 
@@ -72,7 +72,7 @@ add_action( 'init', 'custom_post_books');
 
 
 
-function themeprefix_taxonomies() {
+function themeprefix_categories() {
   // Hierarchal Taxonomy aka Category style - this example uses level
   $labels = array(
     'name'              => _x( 'type', 'taxonomy general name' ),
@@ -96,12 +96,12 @@ function themeprefix_taxonomies() {
     'show_tagcloud'     => true,
     'hierarchical'      => true, /* if this is yes, it acts like categories */   
     'show_admin_column' => true,
-    'query_var'         => category,
+    'query_var'         => type,
     'rewrite'           => array( 'slug' => 'type' ),
   );
   register_taxonomy( 'type', array( 'wcp_books' ), $args );//add in your CPTS that the Taxonomy is applicable to this example links it to regular posts and a 'wcp_courses' custom post type
 }
-add_action( 'init', 'themeprefix_taxonomies');
+add_action( 'init', 'themeprefix_categories');
 
 
   /*
