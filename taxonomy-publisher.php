@@ -29,7 +29,7 @@ get_header(); ?>
 
 							<!-- Displays the product name -->
 							<h3><?php the_title(); ?></h3>
-							 <strong>Instructor : </strong><?php echo esc_html( get_post_meta( get_the_ID(), '_names_list', true ) ); ?>
+							 <strong>Author : </strong><?php echo esc_html( get_post_meta( get_the_ID(), '_names_list', true ) ); ?>
 							<div class="books-excerpt">									
 								<!-- Displays The Excerpt -->
 								<?php the_excerpt(); ?>
