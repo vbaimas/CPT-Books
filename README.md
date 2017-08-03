@@ -6,4 +6,4 @@ Feel Free to install and make any comment that you want. </br>
 Happy Custom Post Type making!</br>
 
 <b>Note: </b></br>
-I suggest to use the method for mu-plugin to install and create your custom post type, meta boxes and custom taxonomies. So, drag and drop the `cpt.php` into this folder.
+I suggest to use the method with mu-plugin to install and create your custom post type, meta boxes and custom taxonomies. So, drag and drop the `cpt.php` into this folder.
