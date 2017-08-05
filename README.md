@@ -1,4 +1,4 @@
-# CPT-Olympus
+# CPT-Books
 The files for my Custom Post Types for the 1st Olympus WordPress Meetup.</br>
 It guides you through creating Custom Post Types, meta boxes and Custom Taxonomies for WordPress.</br>
 This will work with a Child Theme of Twenty Seventeen.</br>
